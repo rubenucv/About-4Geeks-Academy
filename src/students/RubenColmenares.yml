@@ -1,0 +1,230 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ruben Eduardo
+    last_name: Colmenares Villamizar
+    
+    # Define yourself in 4-5 words
+    motto: Never stop learning because life never stops teaching.
+    focus: Become an excellent Product Owner through my programming skills.
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I consider myself responsible, committed, proactive, empathetic, analytical, results-oriented, with strong skills for building relationships, as well as for oral and written communication. I have developed skills in problem solving and project execution in various areas at a local and global level, as well as leadership skills for multidisciplinary and multicultural teams. I have a sense of urgency and a great desire to learn (self-taught). I have self-management skills and teamwork skills. In recent years I have been involved in the prioritization and management of the development backlog of digital solutions and operational requirements in the digital E-commerce industry, with a high focus on customer needs and an omnichannel vision. I have experience in the operation and implementation of developments in E-commerce platforms such as VTEX and Magento Cloud (Adobe Commerce). I have worked using project management tools like Jira and Asana. I am an Ad Honorem member of the IESA Center for Innovation and Entrepreneurship (Caracas - Venezuela), so I have knowledge of agile methodologies and innovation tools such as Design Thinking, Lean Start-up, Business Model Canvas, Scrum, Kanban, among others. I have a strong passion for building organizations that generate triple impact (economic value, social value and environmental value). I enjoy data analysis and interpretation of economic and market information that allows finding insights and unmet needs, in order to generate proposals that increase value for clients and companies. I am interested in technology, applications (Apps) and digital products. I am motivated by great challenges, Startups and generating impact.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQGgJmsy-se_fQ/profile-displayphoto-shrink_800_800/0/1518671116764?e=1643241600&v=beta&t=U5wg-KntC7vrqY-YiHaTFSkhuFyAkB4ga6B5Z7CjDho
+
+    # Contact Information
+    email: ruben.colmenares@iesa.edu.ve #optional
+    phone: +56958864530 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/rubenucv
+    linkedin: https://www.linkedin.com/in/rcolmenaresv/
+  
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Inglish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Video Games
+
+      - item: Music
+
+      - item: Soccer
+
+      - item: Technology
+
+      - item: Cooking and gastronomy
+
+      - item: Economy and Public Politics
+
+# Your previous education
+education:
+    - degree: Software Full Stack Developer
+      university: 4 Geeks Academy
+      # optional
+      university_logo: https://techhubsouthflorida.org/wp-content/uploads/2020/12/4Geeks.png
+      time: 2021 - 2021
+      details: |
+          - Design and development of software and web applications, using technological tools such as JavaScript, Python, SQL, WebPack, React, API Rest, Flask, CSS, HTML, GIT, among others. Decompose complex problems into small, simpler parts, following the bases and good programming practices in order to be able to develop solutions to problems in daily life through software and web applications.
+    
+    - degree: Master of Business Administration (MBA)
+      university: The Pontifical Catholic University of Chile (UC) - IESA School of Management
+      # optional
+      university_logo: https://www.clipartmax.com/png/full/146-1463296_iesa-logo-instituto-de-estudios-superiores-de-administraci%C3%B3n.png
+      time: 2017 - 2019
+      details: |
+          - Program focused on Business Innovation, Leadership and Organizational Change, International Business, Business Plans and Financing for Entrepreneurship, Strategic Orchestration, B2B Customer Management, R&D for Creative Innovation. 
+          - Funding scholarship winner. 
+          - GPA: 4.41 / 5.00. 
+          - I'm an Ad Honorem Member of the IESA Center for Innovation and Entrepreneurship. 
+          - I have publicated a documentary work on the case of the Nintendo Ltd. Company from the perspective of Ambidextrous Management and the Logic of the Entrepreneur
+
+    - degree: Chemical Engineering
+      university: The Central University of Venezuela (UCV)
+      # optional
+      university_logo: https://runrun.es/wp-content/uploads/2013/10/logoucv.jpg
+      time: 2008 - 2015
+      details: |
+          - Position in Promotion: 7/27.
+          - President of the Chemical Engineering Student Center of the Central University of Venezuela and member of the Interuniversity Political Committee of the Venezuelan Student Movement for the period 2011-2015.
+          - Teaching assistant of the Departments of Mathematics, Chemistry, Thermodynamics and Transport Phenomena.
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+
+      - title: Te Cuido
+        # optional
+        link: https://github.com/robcmp/te-cuido-front-end and https://github.com/robcmp/te-cuido-back-end
+        tagline: "Collaborative project. It's an app that helps ederly people finding carers in order to help them to do their daily activities"
+
+      - title: Postcard
+        # optional
+        link: https://github.com/rubenucv/postcard
+        tagline: "It's a simple postcard builded using HTML and CSS"
+
+      - title: Instagram Post
+        # optional
+        link: https://github.com/rubenucv/instagram-post
+        tagline: "Simple Instagram post that was builded using HTML and CSS"
+
+      - title: Excuse Generator
+        # optional
+        link: https://github.com/rubenucv/Excuse-Generator
+        tagline: "APP that generate each part of the sentence randomly to come up with great excuses!"
+
+      - title: Domain Name Generator
+        # optional
+        link: https://github.com/rubenucv/Domain-Name-Generator
+        tagline: "APP that can help you to find a domain name randomly"
+
+      - title: Unit Test With Jest
+        # optional
+        link: https://github.com/rubenucv/Unit-Test-With-Jest
+        tagline: "APP that helps developers testing codes"
+
+      - title: Random Card Generator
+        # optional
+        link: https://github.com/rubenucv/random-card-generator
+        tagline: "It´s a funny app that generate a random poker card"
+
+      - title: Landing Page With React
+        # optional
+        link: https://github.com/rubenucv/landing-page-with-react
+        tagline: "It´s a simple landing page that was builded using react"
+
+      - title: Traffic Light With React
+        # optional
+        link: https://github.com/rubenucv/traffic-light-with-react
+        tagline: "It's a dynamic traffic light. It was builded using react js"
+
+
+      - title: Todolist Application Using React
+        # optional
+        link: https://github.com/rubenucv/todolist-application-using-react
+        tagline: "It's an dynamic APP that helps users list todos"
+
+      - title: Instagram Data Modeling
+        # optional
+        link: https://github.com/rubenucv/exercise-instagram-data-modeling
+        tagline: "A exercise with python that introduces developers into data modeling"
+
+      - title: Star Wars Blog API
+        # optional
+        link: https://github.com/rubenucv/StarWarsBlogApi
+        tagline: "A REST API that gives information about characters, vehicles, planets, among others, from the Star Wars' World. It was builded using Python"
+
+      - title: Star Wars Blog Reading List
+        # optional
+        link: https://github.com/rubenucv/starwars-blog-reading-list
+        tagline: "An APP where you can add characters, vehicles and planets as favorite. Furthermore, you can see details about them"
+
+      - title: Collaborative Landing Page
+        # optional
+        link: https://github.com/rubenucv/exercise-collaborative-html-website
+        tagline: "It was a collaborative exercise in order to learn solving conflicts and using git with others developers"
+
+      - title: Simple Instagram Photo Feed With HTML and CSS
+        # optional
+        link: https://github.com/rubenucv/Simple-Instagram-Photo-Feed-With-HTML-CSS
+        tagline: "It's a simple Instagram photo feed that was builded using only HTML and CSS"
+
+      - title: The Instagram Photo Feed With Bootstrap
+        # optional
+        link: https://github.com/rubenucv/The-Instagram-Photo-Feed-Con-Bootstrap
+        tagline: "It´s a dynamic instagram photo feed that was builded using only HTML and Boostrap"
+
+skills:
+    toolset:
+      - name: Python
+        level: 95%
+
+      - name: Javascript
+        level: 80%
+      
+      - name: SQL
+        level: 95%
+
+      - name: API Rest
+        level: 95%
+
+      - name: React JS
+        level: 90%
+      
+      - name: Flask
+        level: 95%
+      
+      - name: HTML | CSS
+        level: 95%
+      
+      - name: GIT
+        level: 95%
+      
+      - name: Node
+        level: 90%
+      
+      - name: Power BI
+        level: 95%
+
+      - name: JIRA (Kanban)
+        level: 30%
+
+      - name: Google Analytics | Adwords (Google Ads) | Google Tag Manager
+        level: 95%
+      
+      - name: VTEX | Magento Cloud (Adobe Commerce)
+        level: 90%
+
+      - name: Microsoft Office (Visio, Project, Excel, Word, Power Point)
+        level: 100%
+
+      - name: Oracle E-Business Suite | SAP ERP | MATHLAB
+        level: 70%
+      
+      - name: Simulador de Procesos (PRO- II y HYSYS)
+        level: 90%
